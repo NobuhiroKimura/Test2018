@@ -1,5 +1,10 @@
 public class Test {
+
+    private static String language;
+
     public static void main(String[] args) {
-        System.out.println("hello java!");
+        language = "Java";
+
+        System.out.println("Hello " + language + "!");
     }
 }
